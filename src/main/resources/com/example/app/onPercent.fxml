@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="854.0" style="-fx-background-color: #2d7891;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.PercentController">
+    <children>
+        <AnchorPane layoutY="75.0" prefHeight="438.0" prefWidth="854.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="240.0" layoutY="8.0" text="Актуальні пропозиції для вас" textFill="#8a8a8a">
+                    <font>
+                        <Font name="Lucida Bright" size="28.0" />
+                    </font>
+                </Label>
+                <Button fx:id="imageMono" layoutX="537.0" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                   <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/mono.jpg" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+                <Button fx:id="imageAlfabank" layoutX="370.0" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/Alfabank.png" />
+                            </image>
+                        </ImageView>
+               </graphic>
+                </Button>
+                <Button fx:id="imageIdeabank" layoutX="347.0" layoutY="228.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/ideabank.png" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+                <Button fx:id="imagePrivate" layoutX="37.0" layoutY="228.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/private.jpg" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+                <Button fx:id="imagePumb" layoutX="205.0" layoutY="228.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/pumb.png" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+                <Button fx:id="imageRaifazen" layoutX="37.0" layoutY="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/Raifaizen.png" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+                <Button fx:id="imageOTP" layoutX="195.0" layoutY="92.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="113.0" style="-fx-background-color: #fafafa;">
+               <graphic>
+                        <ImageView fitHeight="107.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/ОТП_Банк.jpg" />
+                            </image>
+                        </ImageView>
+               </graphic></Button>
+            <Button fx:id="buttonName" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #c23d32;" text="За назвою" />
+                <Button fx:id="buttonStart" layoutX="376.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #c23d32;" text="Початковий список" />
+                <Button fx:id="buttonMinTerm" layoutX="685.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #c23d32;" text="За мінімальним терміном" />
+            <Button fx:id="buttonMaxTerm" layoutX="508.0" layoutY="383.0" mnemonicParsing="false" style="-fx-background-color: #c23d32;" text="За максимальним терміном" />
+            <Button fx:id="buttonMaxSum" layoutX="76.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #c23d32;" text="За максимальною сумою" />
+            <Button fx:id="buttonMinSum" layoutX="232.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="138.0" style="-fx-background-color: #c23d32;" text="За мінімальною сумою" />
+                <Label layoutX="317.0" layoutY="333.0" text="Сортування:" textFill="#e80000">
+               <font>
+                  <Font name="Lucida Bright" size="28.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="337.0" layoutY="14.0" text="Banks " textFill="WHITE">
+            <font>
+                <Font name="Lucida Bright" size="56.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
